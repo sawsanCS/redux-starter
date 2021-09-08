@@ -1,5 +1,19 @@
 # Getting Started with Create React App
 
+This small app is for people wanting to understand redux
+
+we create the store in a separate file that calls the reducer, and the reducer itself calls the actions.
+
+store, reducer and actions are the building blocks of redux.
+
+the reducer tells you what to do for each action : increment, add , delete... so it needs to import the actions
+
+the actions contain the functions to be called in index.js after a certain event
+
+each action should return a type and a payload (that is the info itself)
+
+we need to pass the store in index.js inside the provider, and wrap all our content inside
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
